@@ -8,10 +8,10 @@ macro seek(variable offset) {
 }
 
 seek($8000); fill $10000 // Fill Upto $FFFF (Bank 1) With Zero Bytes
-include "LIB\SNES.INC"        // Include SNES Definitions
-include "LIB\SNES_HEADER.ASM" // Include Header & Vector Table
-include "LIB\SNES_GFX.INC"    // Include Graphics Macros
-include "LIB\SNES_INPUT.INC"  // Include Input Macros
+include "LIB/SNES.INC"        // Include SNES Definitions
+include "LIB/SNES_HEADER.ASM" // Include Header & Vector Table
+include "LIB/SNES_GFX.INC"    // Include Graphics Macros
+include "LIB/SNES_INPUT.INC"  // Include Input Macros
 
 seek($8000); Start:
   SNES_INIT(SLOWROM) // Run SNES Initialisation Routine
