@@ -50,6 +50,6 @@ Loop:
 
 // Character Data
 // BANK 0
-insert BGPal,   "GFX\BG.pal" // Include BG Palette Data (32 Bytes)
-insert BGMap,   "GFX\BG.map" // Include BG Map Data (3584 Bytes)
-insert BGTiles, "GFX\BG.pic" // Include BG Tile Data (16576 Bytes)
+insert BGPal,   "GFX/BG.pal" // Include BG Palette Data (32 Bytes)
+insert BGMap,   "GFX/BG.map" // Include BG Map Data (3584 Bytes)
+insert BGTiles, "GFX/BG.pic" // Include BG Tile Data (16576 Bytes)

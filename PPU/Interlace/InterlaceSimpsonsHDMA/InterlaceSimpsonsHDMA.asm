@@ -69,9 +69,9 @@ HDMATable:
 
 // Character Data
 // BANK 0
-insert BGPal,     "GFX\BG.pal"   // Include BG Palette Data (32 Bytes)
-insert BGMap,     "GFX\BG.map"   // Include BG Map Data (3584 Bytes)
-insert BGTilesLO, "GFX\BGLO.pic" // Include BG Tile Data (27776 Bytes)
+insert BGPal,     "GFX/BG.pal"   // Include BG Palette Data (32 Bytes)
+insert BGMap,     "GFX/BG.map"   // Include BG Map Data (3584 Bytes)
+insert BGTilesLO, "GFX/BGLO.pic" // Include BG Tile Data (27776 Bytes)
 // BANK 1
 seek($18000)
-insert BGTilesHI, "GFX\BGHI.pic" // Include BG Tile Data (29312 Bytes)
+insert BGTilesHI, "GFX/BGHI.pic" // Include BG Tile Data (29312 Bytes)

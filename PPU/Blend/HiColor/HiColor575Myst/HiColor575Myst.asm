@@ -67,10 +67,10 @@ Loop:
 
 // Character Data
 // BANK 0
-insert BGPalBGR,  "GFX\BGR256.pal" // Include 2 BG Palette Data (512 Bytes)
-insert BGMap241,  "GFX\GR241.map"  // Include BG Map Data (1792 Bytes)
-insert BGMap16,   "GFX\B16.map"    // Include BG Map Data (1792 Bytes)
-insert BGTiles16, "GFX\B16.pic"    // Include BG Tile Data (14560 Bytes)
+insert BGPalBGR,  "GFX/BGR256.pal" // Include 2 BG Palette Data (512 Bytes)
+insert BGMap241,  "GFX/GR241.map"  // Include BG Map Data (1792 Bytes)
+insert BGMap16,   "GFX/B16.map"    // Include BG Map Data (1792 Bytes)
+insert BGTiles16, "GFX/B16.pic"    // Include BG Tile Data (14560 Bytes)
 // BANK 1 & 2
 seek($18000)
-insert BGTiles241, "GFX\GR241.pic" // Include BG Tile Data (40960 Bytes)
+insert BGTiles241, "GFX/GR241.pic" // Include BG Tile Data (40960 Bytes)

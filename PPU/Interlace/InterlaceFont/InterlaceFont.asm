@@ -48,4 +48,4 @@ Loop:
 
 // Character Data
 // BANK 0
-include "GFX\BG.asm" // Include BG
+include "GFX/BG.asm" // Include BG

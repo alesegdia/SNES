@@ -64,10 +64,10 @@ Loop:
 
 // Character Data
 // BANK 0
-insert BGPalBRG,  "GFX\MaxColRGB.pal"   // Include 2 BG Palette Data (512 Bytes)
-insert BGMap240,  "GFX\MaxColGB240.map" // Include BG Map Data (2048 Bytes)
-insert BGMap16,   "GFX\MaxColR16.map"   // Include BG Map Data (2048 Bytes)
-insert BGTiles16, "GFX\MaxColR16.pic"   // Include BG Tile Data (96 Bytes)
+insert BGPalBRG,  "GFX/MaxColRGB.pal"   // Include 2 BG Palette Data (512 Bytes)
+insert BGMap240,  "GFX/MaxColGB240.map" // Include BG Map Data (2048 Bytes)
+insert BGMap16,   "GFX/MaxColR16.map"   // Include BG Map Data (2048 Bytes)
+insert BGTiles16, "GFX/MaxColR16.pic"   // Include BG Tile Data (96 Bytes)
 // BANK 1 & 2
 seek($18000)
-insert BGTiles240, "GFX\MaxColGB240.pic" // Include BG Tile Data (28736 Bytes)
+insert BGTiles240, "GFX/MaxColGB240.pic" // Include BG Tile Data (28736 Bytes)

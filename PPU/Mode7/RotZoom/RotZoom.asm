@@ -213,6 +213,6 @@ SINCOS256: // 256 SINE Values Ranging From -127 To 127 (Add 64 To Offset To Get 
 
 // Character Data
 // BANK 0
-insert BGPal,   "GFX\BG.pal" // Include BG Palette Data (512 Bytes)
-insert BGMap,   "GFX\BG.map" // Include BG Map Data (16384 Bytes)
-insert BGTiles, "GFX\BG.pic" // Include BG Tile Data (10944 Bytes)
+insert BGPal,   "GFX/BG.pal" // Include BG Palette Data (512 Bytes)
+insert BGMap,   "GFX/BG.map" // Include BG Map Data (16384 Bytes)
+insert BGTiles, "GFX/BG.pic" // Include BG Tile Data (10944 Bytes)
